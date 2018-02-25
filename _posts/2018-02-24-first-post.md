@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Steven Fowler Blog Laungh"
+title: "Steven Fowler Blog Launch"
 date: 2018-02-24
 ---
 
