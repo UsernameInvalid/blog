@@ -17,7 +17,7 @@ layout: default
 	  </div>
 	</article>
 	{%- for review in _reviews -%}
-		{%- include section.html title=_section.title photo=_section.cover-photo photo-alt=_section.cover-photo-alt auto-header=_section.auto-header content=_section.content -%}
+		{%- include review.html title=_review.title content=_review.content -%}
 	{%- endfor -%}
 
 </div>
