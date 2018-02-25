@@ -59,8 +59,7 @@ google_analytics:
 remote-theme: chrisbobbe/jekyll-theme-prologue
 collections: 
   - sections
-  - reviews:
-      outpt: true
+  - reviews
 
 plugins:
   - jekyll-seo-tag
