@@ -61,6 +61,11 @@ collections:
   - sections
   - reviews
 
+collections:
+  reviews:
+    output: true
+    permalink: /reviews/:path/
+    
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
