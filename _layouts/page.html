@@ -17,7 +17,7 @@ layout: default
 	  </div>
 	</article>
 	<!-- Sections -->
-	{%- for _section in _sections -%}
-		{%- include section.html title=_section.title photo=_section.cover-photo photo-alt=_section.cover-photo-alt auto-header=_section.auto-header content=_section.content -%}
+	{%- for review in _reviews -%}
+		{%- include review.html title=review.title  content=_section.content -%}
 	{%- endfor -%}
 </div>
