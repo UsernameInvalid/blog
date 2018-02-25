@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{%- assign _reviews = site.reviews | sort: 'date' | reverse -%}
+{%- assign _reviews = site.reviews | sort: 'order'  -%}
 {%- include header.html scrolly_nav=_reviews -%}
 
 <!-- Main -->
@@ -16,4 +16,6 @@ layout: default
 	    {{- content -}}
 	  </div>
 	</article>
+
+
 </div>
