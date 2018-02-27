@@ -25,7 +25,7 @@ layout: default
 		{%- endcapture -%}
 
 		{%- capture _subtitle -%}
-			{% if _review.author -%}{{- _review.author }} | {% endif %}
+			{% if _review.book -%}{{- _review.book }} | {% endif %}
 		{%- endcapture -%}	
 
 		{%- include section.html title=_title subtitle=_subtitle -%}

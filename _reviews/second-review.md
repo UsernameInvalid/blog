@@ -1,6 +1,6 @@
 ---
 title: Second Review
-author: Steven
+book: Well of Ascension
 icon: fa-book
 order: 2
 ---
