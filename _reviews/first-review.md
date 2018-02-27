@@ -1,7 +1,7 @@
 ---
-title: First Review2
+title: First Review
 icon: fa-book
-book: The Final Empire
+book: The Final Empire2
 order: 1
 photo: assets/images/tfe.jpg
 description: This is my first review
