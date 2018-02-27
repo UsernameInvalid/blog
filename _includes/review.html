@@ -1,7 +1,6 @@
 {%- comment -%}
   Include vars:
 	title
-  subtitle
 	content
 {%- endcomment -%}
 
@@ -15,7 +14,6 @@
 			<h2>
           {{- _title -}}
       </h2>
-      {%- if include.subtitle -%}<p>{{- include.subtitle -}}</p>{%- endif -%}
 		</header>
 	{%- endcapture -%}
 {%- endif -%}
