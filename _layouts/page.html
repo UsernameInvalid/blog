@@ -18,7 +18,8 @@ layout: default
 	</article>
 	<!-- Reviews -->
 	
-	{%- for _review in _reviews -%}
-		{%- include review.html title=_review.title description=_reivew.description -%}
+	{%- for _review in _reviews -%}			
+
+		{%- include section.html title=_review.title -%}
 	{%- endfor -%}
 </div>
