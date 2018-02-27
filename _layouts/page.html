@@ -18,7 +18,11 @@ layout: default
 	</article>
 	<!-- Reviews -->
 	
-	{%- for _review in _reviews -%}			
+	{%- for _review in _reviews -%}		
+
+		{%- capture _title -%}
+			<a href="{{- _review.url | absolute_url -}}">{{- _review.title -}}</a>
+		{%- endcapture -%}
 
 		{%- include section.html title=_review.title -%}
 	{%- endfor -%}
