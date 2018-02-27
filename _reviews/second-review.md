@@ -2,8 +2,7 @@
 title: Second Review
 book: Well of Ascension
 icon: fa-book
-book: The Well of Ascension
-order: 1
+order: 2
 photo: assets/images/woa.jpg
 ---
 
