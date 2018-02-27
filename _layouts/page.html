@@ -36,6 +36,6 @@ layout: default
 			{% if _review.photo-alt -%}{{- _review.photo-alt }} {% endif %}
 		{%- endcapture -%}		
 
-		{%- include section.html title=_title subtitle=_subtitle photo=_photo photo-alt=_photo-alt -%}
+		{%- include review.html title=_title subtitle=_subtitle photo=_photo photo-alt=_photo-alt -%}
 	{%- endfor -%}
 </div>
