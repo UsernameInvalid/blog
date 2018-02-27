@@ -3,7 +3,9 @@ title: First Review
 icon: fa-book
 book: The Final Empire
 order: 1
+photo: assets/images/pic02.jpg
 description: This is my first review
+photo-alt: The Final Empire
 ---
 
 <a href="#" class="image featured"></a>

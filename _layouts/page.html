@@ -25,9 +25,17 @@ layout: default
 		{%- endcapture -%}
 
 		{%- capture _subtitle -%}
-			{% if _review.book -%}{{- _review.book }} | {% endif %}
+			{% if _review.book -%}{{- _review.book }} {% endif %}
 		{%- endcapture -%}	
 
-		{%- include section.html title=_title subtitle=_subtitle -%}
+		{%- capture _photo -%}
+			{% if _review.photo -%}{{- _review.photo }} {% endif %}
+		{%- endcapture -%}			
+
+		{%- capture _photo-alt -%}
+			{% if _review.photo-alt -%}{{- _review.photo-alt }} {% endif %}
+		{%- endcapture -%}		
+
+		{%- include section.html title=_title subtitle=_subtitle photo=_photo photo-alt=_photo-alt -%}
 	{%- endfor -%}
 </div>
